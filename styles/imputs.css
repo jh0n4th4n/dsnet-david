@@ -1,0 +1,10 @@
+.lupa_pesquisa{
+    display: grid;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.pesquisa::placeholder{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
