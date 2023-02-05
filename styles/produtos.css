@@ -1,7 +1,7 @@
 .card1{
     display: grid;
     height: 200px;
-    width: 80%;
+    width: 70%;
     text-align: center;
     justify-items: center;
     box-sizing: border-box;
@@ -14,7 +14,11 @@
     box-shadow: 0px 10px 10px 0px rgb(74, 113, 241);
     border-radius: 15px;
     transition: linear 400ms;
-    
+}
+
+.card1:hover:active{
+    box-shadow: 0px 10px 10px 0px rgb(255, 94, 0);
+    transition: none;
 }
 
 .titulo_produtos{
@@ -24,7 +28,7 @@
     font-weight: 500;
     font-size: 1.3rem;
     align-items: center;
-    border-top: 1px solid rgb(146, 142, 142);
+    border-bottom: 1px solid rgb(146, 142, 142);
     color: rgb(105, 105, 105);
     padding-top: 5px;
 }
@@ -49,6 +53,7 @@
     overflow: hidden;
     text-overflow: ellipsis; 
     padding-left: 10px;
+    justify-content: center;
 }
 
 .descricao:hover{
@@ -62,6 +67,7 @@
 }
 
 .descricao_item{
+    font-size: .7rem;
     display: flex;
     height: 50px;
     width: 100%;
@@ -83,5 +89,11 @@
     text-align: center;
     justify-items: center;
 }
+
+.valor{
+    color: var(--azul-escuro);
+}
+
+
 
 
